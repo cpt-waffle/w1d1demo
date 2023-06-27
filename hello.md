@@ -36,3 +36,23 @@ it will remove the old stage snapshot, and add the new (erasing the last staged 
 ```sh
 git commit -m 'message'
 ```
+
+to commit multiple files from your directory use the 
+
+```sh
+git add filename filename
+```
+
+or 
+
+```sh
+git add .
+```
+
+
+if you want to remove something from staged
+use the 
+
+```sh
+git reset filename
+```
