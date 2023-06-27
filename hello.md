@@ -21,3 +21,18 @@ to look at whats being untracked/tracked or any changes
 ```sh
 git status
 ```
+
+to add files to staging we will use:
+
+```sh
+git add file_name
+```
+
+to commit the file to the snapshot you will use the command
+
+if you staged a file, and want to stage the same file with new changes again,
+it will remove the old stage snapshot, and add the new (erasing the last staged file)
+
+```sh
+git commit -m 'message'
+```
